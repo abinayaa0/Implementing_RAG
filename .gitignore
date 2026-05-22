@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+rag_env/
+venv/
+.env/
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large files
+*.pdf
+*.bin
+*.pt
+*.onnx
+
+# Output files
+flat_chunks.json
+hierarchical_chunks.json
+chunks.json
+chunks2.json
+chunks3.json
+embeddings.npy
+vector_store/
+
+# HuggingFace cache
+.cache/
